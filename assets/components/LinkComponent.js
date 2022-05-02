@@ -20,7 +20,7 @@ Vue.component('link-component', {
     `,
     data: function () {
         return {
-            avatar: '/assets/images/avatar/avatar.jpg',
+            avatar: './assets/images/avatar/avatar.jpg',
             socials: [
                 {
                     title: 'facebook',
